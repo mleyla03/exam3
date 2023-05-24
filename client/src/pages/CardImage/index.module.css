@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px auto;
+}
+.ends h3{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 12px;
+
+
+}
+.ends h3:hover{
+    background-color:crimson;
+}
+.ends p:hover{
+    color: crimson;
+}
+.middle h1{
+    font-size: 20px;
+}
+.middle p{
+    font-size: 16px;
+    width: 80%;
+    text-align: center;
+}

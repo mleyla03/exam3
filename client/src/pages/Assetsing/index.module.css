@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.feature{
+    height: 85vh;
+margin-top: 50px;
+    width: 100%;
+
+}
+body{
+    overflow-x: hidden;
+}
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px auto;
+}
+.middle h1{
+    font-size: 20px;
+}
+.middle p{
+    font-size: 16px;
+    width: 80%;
+    font-size: 13px;
+    text-align: center;
+}
+
+
